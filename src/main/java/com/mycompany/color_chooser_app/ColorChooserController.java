@@ -4,7 +4,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 
 public class ColorChooserController {
@@ -19,7 +18,6 @@ public class ColorChooserController {
     @FXML private TextField blueTextField;
     @FXML private TextField alphaTextField;
 
-    @FXML private Circle colorCircle;
     @FXML private Rectangle colorRectangle;
     
     private int red = 0;
