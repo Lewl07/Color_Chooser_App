@@ -39,7 +39,7 @@
       <TextField fx:id="greenTextField" prefHeight="25.0" prefWidth="50.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
       <TextField fx:id="blueTextField" prefHeight="25.0" prefWidth="50.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <TextField fx:id="alphaTextField" prefHeight="25.0" prefWidth="50.0" text="1.00" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-      <Circle fx:id="colorCircle" radius="40.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowSpan="2147483647" />
+      <Circle fx:id="colorCircle" radius="40.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowSpan="2147483647" />
       <Rectangle fx:id="colorRectangle" arcHeight="5.0" arcWidth="5.0" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="3" GridPane.rowSpan="2147483647" />
    </children>
 </GridPane>
