@@ -31,10 +31,10 @@
       <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="17.0" text="Green" textAlignment="CENTER" GridPane.rowIndex="1" />
       <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="17.0" text="Blue" textAlignment="CENTER" GridPane.rowIndex="2" />
       <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="17.0" text="Alpha" textAlignment="CENTER" GridPane.rowIndex="3" />
-      <Slider fx:id="redSlider" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" />
-      <Slider fx:id="greenSlider" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-      <Slider fx:id="blueSlider" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-      <Slider fx:id="alphaSlider" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Slider fx:id="redSlider" max="255.0" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" />
+      <Slider fx:id="greenSlider" max="255.0" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Slider fx:id="blueSlider" max="255.0" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Slider fx:id="alphaSlider" max="1.0" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       <TextField fx:id="redTextField" prefHeight="25.0" prefWidth="65.0" text="0" GridPane.columnIndex="2" />
       <TextField fx:id="greenTextField" prefHeight="25.0" prefWidth="65.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
       <TextField fx:id="blueTextField" prefHeight="25.0" prefWidth="65.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
