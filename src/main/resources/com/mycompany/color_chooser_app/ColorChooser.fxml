@@ -35,10 +35,10 @@
       <Slider fx:id="greenSlider" max="255.0" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       <Slider fx:id="blueSlider" max="255.0" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
       <Slider fx:id="alphaSlider" max="1.0" maxWidth="1.7976931348623157E308" prefHeight="14.0" prefWidth="144.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-      <TextField fx:id="redTextField" prefHeight="25.0" prefWidth="65.0" text="0" GridPane.columnIndex="2" />
-      <TextField fx:id="greenTextField" prefHeight="25.0" prefWidth="65.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-      <TextField fx:id="blueTextField" prefHeight="25.0" prefWidth="65.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-      <TextField fx:id="alphaTextField" prefHeight="25.0" prefWidth="65.0" text="1.00" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <TextField fx:id="redTextField" prefHeight="25.0" prefWidth="50.0" text="0" GridPane.columnIndex="2" />
+      <TextField fx:id="greenTextField" prefHeight="25.0" prefWidth="50.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <TextField fx:id="blueTextField" prefHeight="25.0" prefWidth="50.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <TextField fx:id="alphaTextField" prefHeight="25.0" prefWidth="50.0" text="1.00" GridPane.columnIndex="2" GridPane.rowIndex="3" />
       <Circle fx:id="colorCircle" radius="53.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowIndex="2" />
       <Rectangle fx:id="colorRectangle" arcHeight="5.0" arcWidth="5.0" height="111.0" stroke="BLACK" strokeType="INSIDE" width="111.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
    </children>
